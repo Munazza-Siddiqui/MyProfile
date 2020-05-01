@@ -1,0 +1,39 @@
+.image{
+    text-align: center;
+}
+h1.heading{
+    color:rgb(12, 177, 12);
+       font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    font-size: 50px ;
+}
+div{
+    border: 2px solid black;
+    width: 68%;
+    margin: 10px auto 10px auto;
+    background-color:blue;
+    color: white;
+    
+}
+h1.ty{
+    color:rgb(255, 196, 0);
+    text-align: center;
+}
+h1.p{
+    color: white;
+    text-align: center;
+}
+h1.back{
+text-align: center;
+}
+p.tick{
+    text-align: center;
+}
+form  { display: table;    }
+a:visited{
+    color: rgb(255, 196, 0);
+}
+.sub{
+    background-color: black;
+}
