@@ -1,7 +1,7 @@
 .first
 {
 background-color:black;
-width: 1600px;
+width: 1500px;
 height: 40px;
 
 }
@@ -13,7 +13,7 @@ height: 40px;
 }
 .icons{
     float: left;
-    margin: 3px 120px 0px 130px;
+    margin: 3px 110px 0px 115px;
 }
 .fb{
     margin: 7px 7px 0px 8px;
@@ -42,22 +42,62 @@ height: 40px;
 }
 .second{
     background-color:whitesmoke;
-    width: 1600px;
+    width: 1500px;
     height: 80px;
-    
-
-
-}
+  }
+  .sec{
+    margin-top: 15px;
+  }
+  
 .logo{
     width: 200px;
     height: 70px;
-   margin: 3px 10px 0px 135px;
+   margin: 3px 120px 0px 70px;
     float: left;
 }
 .z{
-    border: ;
+  font-family: cursive;
+  background-color:rgb(0, 38, 255);
+  padding: 7px 10px 7px 10px;
+  border-radius: 50px;
+  color: white;
+  }
+button.md,button.nw,button.cu{
+  font-family: cursive;
+  padding: 7px 20px 7px 20px;
+  border-radius: 50px;
 }
+button.md:hover{
+  background-color: rgb(0, 162, 255);
+}
+button.cu:hover{
+  background-color:rgb(0, 162, 255);
+}
+button.nw:hover{
+  background-color: rgb(0, 162, 255);
+}
+select.about{
+  font-family: cursive;
+  box-shadow: 2px 2px 3px lightgrey;
+  padding: 10px 0px 10px 0px;
+  border-radius: 50px;
+
+}
+select.about:hover{
+  background-color: rgb(0, 162, 255);
+}
+.news{
+    background-color:blue;
+    width: 1700;
+    height: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0px 200px 0px 200px;
+}
+
 .aa{
+
     color:blue ;
     text-align: center;
     float: left;
@@ -72,23 +112,340 @@ height: 40px;
   
    .h{
     margin: 0px 600px 1px 600px;
+    float:none;
    }
   
-     .para{
-        float: right;
-       text-align: left;
-       font-family: sans-serif;
-   }
-   .news{
-    background-color:blue;
-    width: 1700;
-    height: 30px;
+
+.para{
+    margin: 0px 350px 0px 350px;
+   font-size: 18px;
+   text-align: left;
+   width: 800px;
+   height: 400px;
+   font-family: Arial, Helvetica, sans-serif;
+  
+}
+.info{
+    margin: 20px 0px 10px 0px;
+    padding: 40px;
+    background-color: blue;
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    margin: 0px 200px 0px 200px;
+    height: 200px;
+
 }
-v.{
-    float: right;
-    text-align: center;
+.no{
+    font-size: 48px;
 }
+.food{
+float: left;
+margin: 20px 150px auto 100px;
+}
+.family{
+    float: left;
+    margin: 20px 160px auto 0px;
+}
+.medical{
+    float: left;
+    margin: 20px 120px auto 0px;
+}
+.education{
+    float: none;
+    margin: 20px 100px auto 0px;
+}
+
+
+.green{
+    color:rgb(196, 248, 7);
+}
+.aaa{
+
+    color:blue ;
+      float: left;
+      font-family: cursive;
+     
+}
+.bbb{
+    color:green ;
+    font-family: cursive;
+   }
+  
+   .hh{
+    margin: 0px 500px 1px 550px;
+      }
+      .work{
+          width: 1500px;
+          height: 400px;
+          
+          
+      }
+      .sadqa{
+float: left;
+width: 300px;
+        height: 150px;
+        margin: 30px 20px 20px 270px;
+        text-align: center;
+        font-family: cursive;
+        
+        box-shadow: 2px 2px 7px black;
+
+      }
+      .welfare{
+        font-family: cursive;
+        float: left;
+        box-shadow: 2px 2px 7px black;
+        width: 300px;
+        height: 150px;
+        margin: 30px 20px 20px 0px;
+        text-align: center;
+      }
+      .med{
+        font-family: cursive;
+        box-shadow: 2px 2px 7px black;
+        float: left;
+        width: 300px;
+        height: 150px;
+        margin: 30px 270px 20px 0px;
+        text-align: center;
+      }
+      
+      .dast{
+        font-family: cursive;
+        box-shadow: 2px 2px 7px black;
+        float: left;
+        width: 300px;
+        height: 150px;
+        margin: 0px 20px 0px 270px;
+        text-align: center;
+   
+    }
+      .rp{
+        font-family: cursive;
+        box-shadow: 2px 2px 7px black;
+        float: left;
+        width: 300px;
+        height: 150px;
+        margin: 0px 20px 0px 0px;
+        text-align: center;
+      }
+      .edu{
+        font-family: cursive;
+        box-shadow: 2px 2px 7px black;
+         float: left;
+        width: 300px; 
+        margin: 0px 270px 0px 0px;
+         text-align: center;
+        height: 150px;
+      }
+      .i{
+          margin: 10px auto 1px auto;
+      }
+      .blue{
+        font-family: cursive;
+          color: blue;
+          font-weight: bold;
+          
+      }
+      .ia{
+        
+         margin: 10px 0px 10px 270px;
+         width: 600px;
+         height: 350px;
+          text-align:left;
+          float: left;
+          
+      }
+      .ib{
+        color: blue;
+        background-color: whitesmoke;
+        border: 1px solid lightgray;
+        margin: 10px 20px 20px 20px ;
+        width: 220px;
+        height: 50px;
+       float: left;
+      }
+      .ic{
+      
+        color: blue;
+        background-color: whitesmoke;
+        border: 1px solid lightgray;
+        width: 220px;
+        height: 50px;
+        margin: 10px 20px 20px 0px ;
+        float: left;
+      }
+     .id{
+        
+        color: blue;
+        background-color: whitesmoke;
+        border: 1px solid lightgray;
+        width: 220px;
+        height: 50px;
+        margin: 0px 20px 20px 20px ;
+        float: left;
+      }
+      .ie{
+        float: left;
+        color: blue;
+        background-color: whitesmoke;
+        border: 1px solid lightgray;
+        width: 220px;
+        height: 50px;
+        margin: 0px 20px 20px 0px ;
+      }
+      .bluey{
+        font-family: cursive;
+          color: blue;
+          font-weight: bold;
+          text-align: center;
+          float: left;
+          margin-top: 10px;
+         
+      }
+      .blueya{
+          text-align: center;
+         
+          margin-top: 10px;
+          width: 25px;
+          float: left;
+      }
+      .blueyy{
+        font-family: cursive;
+          color: blue;
+          font-weight: bold;
+          margin-top: 10px;
+          float: left;
+         
+      }
+      .blueyyy{
+        font-family: cursive;
+          color: blue;
+          font-weight: bold;
+           margin-bottom: 100px;
+         
+          text-align: center;
+          float: left; 
+      }
+      .za{
+         float: left;
+        margin: 10px 100px 10px 0px;
+        width: 350px;
+        height: 300px;
+      
+        
+     }
+     .blu{
+       font-family: cursive;
+       font-weight: bold;
+       font-size: 30px;
+       color: blue;
+       text-align: center;
+     }
+     .ud{
+       font-family: cursive;
+       text-align: center;
+       box-shadow: 1px 1px 10px  dimgrey;
+       margin: 20px 20px 0px 20px;
+       color: grey;
+       padding: 10px;
+       
+     }
+     .v{
+       float: none;
+      padding: 20px;
+      margin: 20px 20px 20px 20px;
+     }
+     .aaaa{
+      float: right;
+      color:blue ;
+        float: left;
+        font-family: cursive;
+       
+  }
+  .bbbb{
+    
+      color:green ;
+      font-family: cursive;
+     }
+    
+     .hhh{
+      margin: 0px 500px 1px 550px;
+      font-family: cursive;
+        }
+        .im{
+          width: 300px;
+          height: 200px;
+         
+        }
+        .gal{
+          
+          margin: 10px 20px 10px 100px;
+        }
+        .cont{
+        
+          width: 1320px;
+          height: 200px;
+          background-color:  black;
+          color: grey;
+          font-size: 14pt;
+          font-family: cursive;
+          margin: 100px 0px 0px 0px;
+          padding: 100px;
+                  }
+
+        .m{
+          width: 500px;
+          height: 300px;
+          float: left;
+                 }
+        .al{
+                  float: left;
+                 margin: 0px 10px 0px 100px;
+                  width: 300px;
+                  height: 100px;
+                  color: white;
+                  font-weight: bold;
+                  text-decoration: underline;
+                }
+                .ss{
+                  float: left;
+                  margin: 0px 10px 0px 60px;
+                  width: 300px;
+                  height: 100px;
+                  color: white;
+                  font-weight: bold;
+                }
+                .text{
+                  margin: 0px 0px 0px 15px;
+                }
+        .copy{
+          width: 1500px;
+          height: 50px;
+          background-color: blue;
+          padding: 10px;
+        }
+        .line{
+          color: white;
+          padding: 20px;    }
+          .fba{
+            margin: 7px 7px 0px 8px;
+            float: left;
+        }
+        .twa{
+            margin: 7px 7px 0px 10px;
+            float: left;
+        }
+        .iga{
+            margin: 9px 7px 0px 7px;
+            float: left;
+        }
+        .yta{
+            margin: 7px 7px 0px 7px;
+            float: left;
+        }
+        .wapa{
+            margin: 8px 10px 0px 7px;
+            float: left;
+        }
