@@ -1,67 +1,208 @@
-
-body{
-    background-image: url(wp2712818.jpg);
-    background-position: left;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-} 
-
-.m{
-    color:black;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    text-shadow: 3px 3px 4px grey;  
-    font-size: 36pt;
-    }
-.r{
-    color:crimson;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-    text-align: center;
-    text-shadow: 3px 3px 3px grey;
-    font-size: 30pt;
-    }
-.h{
-    color:black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-    text-shadow: 3px 3px 4px grey;
-    font-size: 36pt;
-}
 .a{
-    width: 100%;
-    height: 450px;
-   display: flex;
-   justify-content: space-evenly;
-   align-items: center;
-  
+background-color:black;
+color: white;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+height: 50px;
+
+
+}
+.nav-link{
+    font-weight: bold;
+   
+}
+.navbar-text{
+    margin-left: auto;
+}
+.navbar{
+    background-color:white !important;
+}
+.con{
+    background-image: url(pictures/contact-us-icon-colorful-puzzle-with-hand_117856-1950.jpg);
+background-position: left;
+background-size: 100%;
+background-repeat: no-repeat;
+ text-align: center;
+height: 700px;
+ color: black;
+font-family: cursive ;
+
+
+}
+.b{
+    color: white;
+}
+
+.color{
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center !important;
+    color: rgb(12, 12, 240) !important;
     
 }
-.captiona{
+.caption{
     text-align: center;
-    color: yellow;
-    text-shadow: 2px 2px 3px black;
-    font-family: cursive ;
+    color: grey;
+    font-family: cursive;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px grey;
+    align-items: center;
+    padding-top: 10px;
 }
-.captionb{
-    text-align: center;
-    color: blue;
-    text-shadow: 2px 2px 3px black;
-    font-family: cursive ;
-}
-.captionc{
-    text-align: center;
-    color:green;
-    text-shadow: 2px 2px 3px black;
-    font-family: cursive ;
-}
-.captiond{
-    text-align: center;
-    color:blueviolet;
-    text-shadow: 2px 2px 3px black;
-    font-family: cursive ;
-}
-@media only screen and (max-width: 900px) {
-.b{
-   margin-left: 100px;
+.welcome{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgb(156, 150, 150) !important;
+    height: 40px;
 
-}}
+}
+.p{
+    font-family: cursive;
+    margin-left: 35%;
+    margin-top: 0.5%;
+    font-weight: bold !important;
+}
+@media only screen and (max-width: 600px) {
+    .p{
+        margin-left: 10%; 
+    }
+}
+.us{
+    margin-top: 40px;
+    background-color: grey;
+    opacity: 0.9 ;
+    height: 190px;
+    padding: 15px;
+}
+.links{
+   margin-top: 200px;
+}
+.cnt{
+    font-weight: bold;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 3px black;
+    font-size: 48pt;
+}
+.cont{
+    font-weight: bold;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 3px black;
+    font-size: 26pt;
+}
+p>a:visited  {
+    color:white;
+  }
+  p>a:hover  {
+    color:black;
+    text-decoration: none
+  }
+  .mail>a:link{
+    color:black;
+  }
+  .mail>a:hover{
+    color:white;
+  }
+  .space{
+      margin-top: 15px;
+  }
+  .sign{
+      color: rebeccapurple;
+  }
+   * {box-sizing: border-box}
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.clearfix>button {
+  background-color: rgb(23, 23, 223);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color:rebeccapurple !important ;
+}
+
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+} 
+.image-aboutus-banner {
+    background: url("pictures/unnamed.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding-top: 110px;
+    padding-bottom:110px;
+ }
+ .lg-text {
+    font-size:52px;
+    font-weight: 600;
+    text-transform: none;
+    color:crimson;
+}
+.image-aboutus-para {
+    color: white;
+}.abc{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    color: rebeccapurple;
+}
+/* .card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} */
