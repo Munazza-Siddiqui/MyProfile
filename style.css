@@ -11,6 +11,10 @@ height: 50px;
     font-weight: bold;
    
 }
+.cent{
+  text-align: center;
+
+}
 .navbar-text{
     margin-left: auto;
 }
@@ -18,16 +22,14 @@ height: 50px;
     background-color:white !important;
 }
 .con{
-    background-image: url(pictures/contact-us-icon-colorful-puzzle-with-hand_117856-1950.jpg);
+    background-image: url(pictures/colorful-square-vector-1518635.jpg);
 background-position: left;
-background-size: 100%;
+background-size: cover;
 background-repeat: no-repeat;
  text-align: center;
-height: 700px;
+height: 900px;
  color: black;
 font-family: cursive ;
-
-
 }
 .b{
     color: white;
@@ -55,7 +57,7 @@ font-family: cursive ;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     background-color: rgb(156, 150, 150) !important;
-    height: 40px;
+    height: auto;
 
 }
 .p{
@@ -63,28 +65,30 @@ font-family: cursive ;
     margin-left: 35%;
     margin-top: 0.5%;
     font-weight: bold !important;
+   
 }
 @media only screen and (max-width: 600px) {
     .p{
         margin-left: 10%; 
+        margin-top: 0%;
     }
 }
 .us{
     margin-top: 40px;
-    background-color: grey;
+    background-color: rgb(173, 169, 169);
     opacity: 0.9 ;
     height: 190px;
     padding: 15px;
 }
 .links{
-   margin-top: 200px;
+   margin-top: 150px;
 }
 .cnt{
     font-weight: bold;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 2px 2px 3px black;
-    font-size: 48pt;
+    font-size: 40pt;
 }
 .cont{
     font-weight: bold;
@@ -93,7 +97,7 @@ font-family: cursive ;
     text-shadow: 2px 2px 3px black;
     font-size: 26pt;
 }
-p>a:visited  {
+p>a:visited ,p>a:link,.col>a:link,.col>a:visited {
     color:white;
   }
   p>a:hover  {
@@ -197,12 +201,30 @@ button:hover {
     color: white;
 }.abc{
     text-align: center;
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: rebeccapurple;
+    text-shadow: 2px 2px 3px grey;
+
 }
-/* .card{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-} */
+.card{
+   width: 250px !important;
+   height: 300px !important;
+margin: 20px;
+}
+.col{
+  margin: 10px;
+  text-align: center;
+}
+.foot{
+  background-color: black;
+  height: 50px;
+}
+.footer-copyright{
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+.v{
+  width: 10px;
+}
