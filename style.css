@@ -1,360 +1,73 @@
+
+body{
+    background-image: url(explosion-colored-powder-white-background-isolated-71572090.jpg);
+    background-position: left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+} 
+
+.m{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 3px 3px 4px grey;  
+    font-size: 36pt;
+    }
+.r{
+    color:crimson;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    text-align: center;
+    text-shadow: 3px 3px 3px grey;
+    font-size: 30pt;
+    }
+.h{
+    color:black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px 4px grey;
+    font-size: 36pt;
+}
 .a{
-background-color:black;
-color: white;
-text-align: center;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-height: 50px;
-
-
-}
-.nav-link{
-    font-weight: bold;
-   
-}
-.cent{
-  text-align: center;
-
-}
-.navbar-text{
-    margin-left: auto;
-}
-.navbar{
-    background-color:white !important;
-}
-.con{
-    background-image: url(pictures/colorful-square-vector-1518635.jpg);
-background-position: left;
-background-size: cover;
-background-repeat: no-repeat;
- text-align: center;
-height: 900px;
- color: black;
-font-family: cursive ;
-}
-.b{
-    color: white;
-}
-
-.color{
-    font-family: monospace;
-    font-weight: bold;
-    text-align: center !important;
-    color: rgb(12, 12, 240) !important;
+    width: 100%;
+    height: 450px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+  
     
 }
-.caption{
+.captiona{
     text-align: center;
-    color: grey;
-    font-family: cursive;
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    box-shadow: 2px 2px 2px grey;
-    align-items: center;
-    padding-top: 10px;
-}
-.welcome{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    background-color: rgb(156, 150, 150) !important;
-    height: auto;
-
-}
-.p{
-    font-family: cursive;
-    margin-left: 35%;
-    margin-top: 0.5%;
-    font-weight: bold !important;
-   
-}
-@media only screen and (max-width: 600px) {
-    .p{
-        margin-left: 10%; 
-        margin-top: 0%;
-    }
-}
-.us{
-    margin-top: 40px;
-    background-color: rgb(173, 169, 169);
-    opacity: 0.9 ;
-    height: 190px;
-    padding: 15px;
-}
-.links{
-   margin-top: 150px;
-}
-.cnt{
-    font-weight: bold;
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: yellow;
     text-shadow: 2px 2px 3px black;
-    font-size: 40pt;
+    font-family: cursive ;
 }
-.cont{
-    font-weight: bold;
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 2px 2px 3px black;
-    font-size: 26pt;
-}
-.col>a:link,.col>a:visited {
-    color:white;
-  }
-  
-  .mail>a:link,p>a:visited ,p>a:link{
-    color:black;
-  }
-  .mail>a:hover{
-    color:white;
-  }
-  p>a:hover  {
-    color:white;
-    text-decoration: none
-  }
-  .space{
-      margin-top: 15px;
-  }
-  .sign{
-      color: rebeccapurple;
-  }
-   * {box-sizing: border-box}
-
-  input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-.clearfix>button {
-  background-color: rgb(23, 23, 223);
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-button:hover {
-  opacity:1;
-}
-
-
-.cancelbtn {
-  padding: 14px 20px;
-  background-color:rebeccapurple !important ;
-}
-
-
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-
-
-.container {
-  padding: 16px;
-}
-
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-    width: 100%;
-  }
-} 
-.image-aboutus-banner {
-    background: url("pictures/unnamed.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    padding-top: 110px;
-    padding-bottom:110px;
- }
- .lg-text {
-    font-size:52px;
-    font-weight: 600;
-    text-transform: none;
-    color:crimson;
-}
-.image-aboutus-para {
-    color: white;
-}.abc{
+.captionb{
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    color: rebeccapurple;
-    text-shadow: 2px 2px 3px grey;
+    color: blue;
+    text-shadow: 2px 2px 3px black;
+    font-family: cursive ;
+}
+.captionc{
+    text-align: center;
+    color:green;
+    text-shadow: 2px 2px 3px black;
+    font-family: cursive ;
+}
+.captiond{
+    text-align: center;
+    color:blueviolet;
+    text-shadow: 2px 2px 3px black;
+    font-family: cursive ;
+}
+.captione{
+    text-align: center;
+    color:grey;
+    text-shadow: 2px 2px 3px black;
+    font-family: cursive ;}
 
-}
-.card{
-   width: 200px !important;
-   height: 250px !important;
-margin: 40px ;
-}
-@media screen and (max-width: 700px) {
-  .card{
-    margin-left: 160px;
-  }
-}
-@media screen and (max-width: 500px) {
-  .card{
-    margin-left: 110px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .card{
-    margin-left: 90px;
-  }
-}
-.col{
-  margin: 10px;
-  text-align: center;
-}
-.foot{
-  background-color: black;
-  height: 50px;
-}
-.footer-copyright{
-  background-color: black;
-  color: white;
-  height: 50px;
-}
-.v{
-  width: 10px;
-}
-.fm{
-  width: 400px !important;
-    height: 400px;
-margin-left: 350px;
-}
-@media screen and (max-width: 1000px) {
-  .fm{
-    margin-left: 120px;
-  }
-} 
-@media screen and (max-width: 700px) {
-  .fm{
-    margin-left: 50px;
-  width: 350px !important;
-  height: 200px !important;
-  }
-} 
-@media screen and (max-width: 400px) {
-  .fm{
-    margin-left: 20px;
-  width: 290px !important;
-  height: 50px !important;
-  margin-bottom: 170px !important;
-  }
-} 
-.heading{
-  color: rgb(0, 132, 255);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: bold;
-  text-shadow: 2px 2px 3px grey;
-  text-align: center;
-  background-color: rgb(238, 229, 232);
-}
-.back{
-  background-color: rgb(0, 140, 255);
-  padding: 30px;
-}
-.card-text{
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  font-family: cursive;
+@media only screen and (max-width: 900px) {
+.b{
+   margin-left: 100px;
 
-}
-.box{
-  width: 250px !important;
-  height: 230px !important;
-  margin: 10px !important;
-  margin-bottom: 50px !important;
-  margin-top: 20px !important;
-}
-.pink{
-  background-color: pink;
-}
-.yellow{
-  background-color: rgb(238, 238, 58);
-}
-.black{
-  color: black;
-}
-.heading1{
-  color: rgb(238, 238, 58);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: bold;
-  text-shadow: 2px 2px 3px grey;
-  text-align: center;
-  background-color: rgb(238, 229, 232);
-}
-.heading2{
-  color: pink;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: bold;
-  text-shadow: 2px 2px 3px grey;
-  text-align: center;
-  background-color: rgb(238, 229, 232);
-}
-@media screen and (max-width: 1000px) {
-  .box{
-    margin-left: 40px !important;
-  }
-} 
-@media screen and (max-width: 700px) {
-  .box{
-    margin-left: 120px !important;
-  
-  }
-} 
-@media screen and (max-width: 400px) {
-  .box{
-    margin-left: 40px !important;
-    }}
-    .boxes
-    {
-      width: 230px !important;
-      height: 250px !important;
-      margin: 10px !important;
-      margin-bottom: 50px !important;
-      margin-top: 20px !important;
-    }
-    @media screen and (max-width: 1000px) {
-      .boxes{
-        margin-left: 40px !important;
-      }
-    } 
-    @media screen and (max-width: 700px) {
-      .boxes{
-        margin-left: 120px !important;
-      
-      }
-    } 
-    @media screen and (max-width: 400px) {
-      .boxes{
-        margin-left: 40px !important;
-        }}
+}}
