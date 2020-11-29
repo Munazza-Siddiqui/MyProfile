@@ -1,73 +1,270 @@
-
+/* for home body */
 body{
-    background-image: url(explosion-colored-powder-white-background-isolated-71572090.jpg);
-    background-position: left;
-    background-size: 100% 100%;
+    background-image: url(pictures/wp2712818.jpg);
+    background-position: top;
+    background-size: 100%;
     background-repeat: no-repeat;
+    
 } 
+/* for contact and webpage body */
+.bd,.bw{
+    background-image: url(pictures/bg4.jpg);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+} 
+.bw{
+    background-image: url(pictures/bg5.jpg);
+}
 
+.dropdown-menu{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dropbtn {
+    background-color:white;
+    color:rgb(153, 149, 149);
+    padding-top: 10px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: silver;
+color: white;}
+/* for my name and contact */
 .m{
     color:black;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     text-shadow: 3px 3px 4px grey;  
-    font-size: 36pt;
+    font-size: 4em;
     }
+    .c,.pg{
+        margin-top: 50px;
+        color: white;
+        font-family: cursive;
+        font-size: 3em;
+        text-align: center;
+    text-shadow: 3px 3px 4px black;  
+    }
+    /* for pages heading */
+    .pg{
+background-color: rgba(255, 255, 255, 0.397);
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+text-shadow: 1px 1px 5px white;  
+padding: 10px 0px 10px 0px;
+    }
+    /* for no. and email */
+    p>a:link{
+        color: black;
+        font-size: 20pt;
+    }
+    p>a:hover  {
+        color: white;
+        text-decoration: none
+      }
+      .cnt{
+          text-align: center;
+          background-color: rgba(255, 255, 255, 0.497);
+          width: 800px;
+          height: 200px;
+        margin-left: 25%;
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+    /* for contact animation */
+    .ml2 {
+        font-weight: 900;
+        font-size: 3em;
+      }
+      
+      .ml2 .letter {
+        display: inline-block;
+        line-height: 1em;
+      }
+      /* for my intro */
 .r{
     color:crimson;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-    text-align: center;
-    text-shadow: 3px 3px 3px grey;
-    font-size: 30pt;
-    }
-.h{
-    color:black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     text-align: center;
     text-shadow: 3px 3px 4px grey;
+    font-size: 3em;
+    }
+    /* for welcome */
+.h{
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
     font-size: 36pt;
+    background-color: rgba(0, 0, 0, 0.9); 
+    width: 900px;
+    margin-left: 10%;
+    height: 90px;
+    padding-top: 15px;
 }
+/* for my name animation */
+.ml5 {
+    position: relative;
+    font-weight: 300;
+    font-size: 4.5em;
+    color: #402d2d;
+  }
+  
+  .ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left:2%;
+    line-height: 1em;
+    background-color: rgb(245, 244, 244);
+  }
+  
+  .ml5 .line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 3px;
+    width: 100%;
+    background-color: #402d2d;
+    transform-origin: 0.5 0;
+  }
+  
+  .ml5 {
+    font-family: 'Times New Roman', Times, serif ;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px grey;
+    
+    }
+  
+  .ml5 .letters {
+    display: inline-block;
+    opacity: 0;
+  }
+/* for webpage heading */
+.sw{
+    color: yellow;
+}
+/* for images animation */
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Fauna+One);
+.snip1482 {
+  font-family: 'Fauna One', Arial, sans-serif;
+  position: relative;
+  margin: 50px 20px 0px 50px;
+  min-width: 230px;
+  max-width: 400px;
+  min-height: 220px;
+  width: 100%;
+  color: #ffffff;
+  text-align: right;
+  line-height: 1.4em;
+  background-color: #1a1a1a;
+  font-size: 16px;
+}
+.snip1482 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1482 img {
+  position: absolute;
+  right: 0%;
+  top: 50%;
+  opacity: 1;
+  width: 100%;
+  -webkit-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+}
+.snip1482 figcaption {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 20px 0 20px 20px;
+}
+.snip1482 h2,
+.snip1482 p {
+  margin: 0;
+  width: 100%;
+  -webkit-transform: translateX(20px);
+  transform: translateX(20px);
+  opacity: 0;
+}
+.snip1482 h2 {
+  font-family: 'Playfair Display', Arial, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.snip1482 p {
+  font-size: 0.8em;
+}
+.snip1482 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1482:hover img,
+.snip1482.hover img {
+  width: 55%;
+  right: -10%;
+}
+.snip1482:hover figcaption h2,
+.snip1482.hover figcaption h2,
+.snip1482:hover figcaption p,
+.snip1482.hover figcaption p {
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+  opacity: 1;
+}
+/* for horizontal images */
 .a{
     width: 100%;
     height: 450px;
    display: flex;
    justify-content: space-evenly;
    align-items: center;
-  
+  padding-bottom: 40px;
     
 }
-.captiona{
-    text-align: center;
-    color: yellow;
-    text-shadow: 2px 2px 3px black;
-    font-family: cursive ;
-}
-.captionb{
-    text-align: center;
-    color: blue;
-    text-shadow: 2px 2px 3px black;
-    font-family: cursive ;
-}
-.captionc{
-    text-align: center;
-    color:green;
-    text-shadow: 2px 2px 3px black;
-    font-family: cursive ;
-}
-.captiond{
-    text-align: center;
-    color:blueviolet;
-    text-shadow: 2px 2px 3px black;
-    font-family: cursive ;
-}
-.captione{
-    text-align: center;
-    color:grey;
-    text-shadow: 2px 2px 3px black;
-    font-family: cursive ;}
 
 @media only screen and (max-width: 900px) {
 .b{
    margin-left: 100px;
 
-}}
+}
+}
